@@ -17,11 +17,9 @@ public class App {
 
         ToDoItemRepository toDoItemRepository = new ToDoItemRepository();
         toDoItemRepository.createTdoDoItem(request);
-        toDoItemRepository.updateToDoItem(1,true);
+        toDoItemRepository.updateToDoItem(1, true);
         toDoItemRepository.deleteToDoItem(1);
         List<ToDoItem> toDoItems = toDoItemRepository.getToDoItems();
         System.out.println(toDoItems);
-
-
     }
 }

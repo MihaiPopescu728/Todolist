@@ -61,7 +61,6 @@ public class ToDoItemRepository {
                 toDoItem.setDone(resultSet.getBoolean("done"));
 
                 toDoItems.add(toDoItem);
-
             }
             return toDoItems;
         }
